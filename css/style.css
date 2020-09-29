@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #ebebeb;
+	font-family: sans-serif;
+	padding: 2rem;
+}
+
+.console-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.one-console {
+	padding: 10px;
+	width: 33%;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+.image {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+img {
+	width: 90%;
+}
+
+h2 {
+	padding-bottom: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.details-image {
+	width: 50%;
+}
+
+.error {
+	background-color: red;
+	color: #eee;
+	padding: 20px;
+}
